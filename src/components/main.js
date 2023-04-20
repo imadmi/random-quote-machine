@@ -25,12 +25,14 @@ function Main() {
             <div id="author">
                 {quotes[currentQuote]}
             </div>
+            <div>
+                <a id="tweet-quote" href="https://twitter.com/intent/tweet" target="_blank" rel="noopener noreferrer">
+                    tweet quote
+                </a>
+            </div>
             <button id="new-quote" onClick={new_quote}>
                 new quote
             </button>
-            <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">
-
-            </a>
         </div>
       </div>
     );
